@@ -6,8 +6,51 @@
     <title>Palindrome</title>
   </head>
   <body>
-    <input type="text" placeholder="Type something..." id="myInput" />
-    <button type="button" onclick="palindrome();">Submit</button>
+    <h1 style="text-align: center">Palindrome Checker</h1>
+    <div
+      style="
+        margin: auto;
+        width: 70%;
+        background-color: #eee;
+        border: 1px solid rgb(87, 85, 85);
+        border-radius: 4px;
+        padding: 25px;
+        justify-content: center;
+      "
+    >
+      <h3>
+        A palindrome is a word, phrase, number or sequence of words that reads
+        the same backward as forward. Punctuation and spaces between the words
+        or lettering is allowed. Let do a few tests!
+      </h3>
+      <input
+        type="text"
+        placeholder="Type something..."
+        id="myInput"
+        style="
+          border: 1px solid black;
+          width: 35%;
+          height: 25px;
+          font-size: 15px;
+        "
+      />
+      <button
+        type="button"
+        onclick="palindrome();"
+        style="
+          border: 1px solid black;
+          color: aliceblue;
+          background-color: green;
+          margin: auto;
+          border-radius: 4px;
+          width: 10%;
+          height: 27px;
+          font-size: 15px;
+        "
+      >
+        SUBMIT
+      </button>
+    </div>
     <script src="palindrome.js"></script>
   </body>
 </html>
